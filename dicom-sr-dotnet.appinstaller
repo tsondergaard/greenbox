@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="1.0.0.34"
+    Uri="https://tsondergaard.github.io/greenbox/dicom-sr-dotnet.appinstaller" >
+ 
+    <MainPackage
+        Name="cc.sondergaard.dicom-sr-dotnet"
+        Publisher="CN=ThomasSondergaard, O=Vital Images, C=DK"
+        Version="1.0.0.34"
+        Uri="https://tsondergaard.github.io/greenbox/dicom-sr-dotnet.msix" />
+ 
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="0"/>
+        <AutomaticBackgroundTask/>
+    </UpdateSettings>
+</AppInstaller>
